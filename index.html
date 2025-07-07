@@ -1,0 +1,167 @@
+<html>
+  <head>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Mealify</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg site-nav">
+      <div class="container">
+        <a class="navbar-brand text-uppercase logo" href="#"
+          ><img class="float-start me-2" src="imgs/logo (1).png" alt="" />
+          <div class="float-start">
+            <h1 class="text-capitalize">Weather</h1>
+            <p>tagline goes here</p>
+          </div>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto fw-normal gap-3">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#services">News </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#works">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#clients">Photos </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#team">Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar***** -->
+
+    <!-- Input START-->
+    <div class="search-style">
+      <div class="container">
+        <input
+          type="text"
+          class="form input form-control"
+          placeholder="Find your location...."
+        />
+        <button type="button" class="btn btn-light">Find</button>
+      </div>
+    </div>
+    <!--  -->
+    <section>
+      <div class="container">
+        <div class="row gap-0">
+          <div class="col-md-4 today">
+            <div class="row py-1">
+              <div class="d-flex justify-content-between">
+                <p class="day">day</p>
+                <p class="date">date</p>
+              </div>
+            </div>
+            <div class="content-box">
+              <p class="city">city</p>
+              <h2 class="first-degree">38<sup>o</sup>C</h2>
+              <img class="icon1" src="icon of time" alt="" />
+              <p class="weather-condition">safa2 el gw</p>
+              <p class="wind">7araket el ria7</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 tomorrow">
+            <div class="row py-1">
+              <div class="d-flex justify-content-center">
+                <p>next day</p>
+              </div>
+            </div>
+            <div class="content-box next">
+              <img class="icons" src=" sec day icon of weather" alt="" />
+              <p class="next-degree">degree<sup>o</sup>C</p>
+              <p class="avg-degree">daraget el m2awya<sup>o</sup></p>
+              <p class="weather-condition1">safa2 el gw</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 after-tomorrow">
+            <div class="row py-1">
+              <div class="d-flex justify-content-center">
+                <p>3rd day</p>
+              </div>
+            </div>
+            <div class="content-box next">
+              <img class="icons" src=" 3rd day icon of weather" alt="" />
+              <p class="next-degree">degree<sup>o</sup>C</p>
+              <p class="avg-degree">daraget el m2awya<sup>o</sup></p>
+              <p class="weather-condition1">safa2 el gw</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <!--  -->
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="sub-style">
+              <input
+                type="text"
+                class="form form-control"
+                placeholder="Enter your email to supscribe..."
+              />
+              <button type="button" class="btn btn-light wind-animate">Subscribe</button>
+
+              <p class="mt-4 ms-3 ">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 footer-icons">
+            <div class=" inner"><a href="#"><i class="footer-icon fa-brands fa-facebook-f"></i></a></div>
+            <div class="inner"> <a href="#"><i class="footer-icon fa-brands fa-twitter"></i></a></div>
+            <div class=" wind-animate inner">  <a href="#"><i class="footer-icon fa-brands fa-google-plus-g"></i
+            ></a></div>
+            <div class="wind-animate inner"><a href="#">   <a href="#"><i class="footer-icon fa-brands fa-pinterest"></i></a></div>
+           
+          
+         
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
